@@ -11,7 +11,7 @@ class App extends Component {
           <h1 className="App-title">Visiòn</h1>
         </header>
         <p className="App-intro">
-          Seccion para la visiòn
+          Seccion para la visiòn prueba commit
 
         </p>
         
