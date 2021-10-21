@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Redirect, Route, Switch} from "react-router-dom";
+import { BrowserRouter as Router, Redirect, Route, Switch } from "react-router-dom";
 
 class App extends Component {
   render() {
@@ -36,11 +36,13 @@ class App extends Component {
 
         </p>
         <br />
-        <Switch>
-          <Route exact path="/PaginaDeContacto">
-          <Redirect to="/PaginaDeContacto"/>
-          </Route>
-        </Switch>
+        <Router>
+          <Switch>
+            <Route exact path="/PaginaDeContacto">
+              <Redirect to="/PaginaDeContacto" />
+            </Route>
+          </Switch>
+        </Router>
         <a href="/PaginaDeContacto.js" class="btn btn-default">Siguiente Pagina</a>
 
       </div>
