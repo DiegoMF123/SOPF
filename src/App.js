@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class App extends Component {
   render() {
@@ -48,8 +48,12 @@ class App extends Component {
 
 
         </p>
-        <br/>
+        <br />
         <button href="PaginaDeConctacto.js" >Siguiente pàgina</button >
+        <Link to="/PaginaDeConctacto"><button>
+          Siguiente pàgina
+        </button>
+        </Link>
 
       </div>
     );
