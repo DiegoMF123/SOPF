@@ -39,7 +39,8 @@ class App extends Component {
         <Router>
           <Switch>
             <Route exact path="/PaginaDeContacto">
-              <Redirect to="/PaginaDeContacto" />
+
+              <Link to='/PaginaDeContacto' >Pagina Siguiente </Link>
             </Route>
           </Switch>
         </Router>
