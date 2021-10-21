@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Appdos from './PaginaDeConctacto';
 import { Link } from "react-router-dom";
 
 class App extends Component {
