@@ -36,10 +36,14 @@ class App extends Component {
 
         </p>
         <br />
-        <Link to="/PaginaDeContacto"><button>
-              Pagina siguiente
+        <Router>
+          <Switch>
+            <Link to="/PaginaDeContacto"><button>
+              Pagina
             </button>
             </Link>
+          </Switch>
+        </Router>
         <a href="/PaginaDeContacto.js" class="btn btn-default">Siguiente Pagina</a>
 
       </div>
