@@ -12,7 +12,7 @@ class App extends Component {
           <ul class="menu__list r-list">
             <li class="menu__group"><Link to="/" class="menu__link r-link text-underlined">Pagina 1</Link></li>        
             <li class="menu__group"><Link to="/PaginaProductos" class="menu__link r-link text-underlined">Pagina 2</Link></li>
-            <li class="menu__group"><Link to="/PaginaDeConctacto">Pagina 3</Link></li>
+            <li class="menu__group"><Link to="/PaginaDeConctacto" class="menu__link r-link text-underlined">Pagina 3</Link></li>
           </ul>
         </nav>
         <header className="App-header">
