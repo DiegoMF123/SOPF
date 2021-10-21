@@ -47,7 +47,7 @@ class App extends Component {
 
 
         </p>
-        <button href="" style="background-color:blue;">Siguiente pàgina</button >
+        <button href="" >Siguiente pàgina</button >
 
       </div>
     );
