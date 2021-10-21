@@ -10,16 +10,16 @@ class App extends Component {
       <div className="App">
         <nav class="page__menu page__custom-settings menu">
           <ul class="menu__list r-list">
-            <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined">Option #1</a></li>
-            <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined">Option #2</a></li>
-            <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined">Option #3</a></li>
+            <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined"><Link to="/">Pagina 1</Link></a></li>
+            <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined"><Link to="/PaginaDeConctacto">Pagina 2</Link></a></li>
+            <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined"><Link to="/PaginaProductos">Pagina 3</Link></a></li>
           </ul>
         </nav>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Visiòn</h1>
         </header>
-        
+
         <p className="App-intro">
           Constituir un equipo dentro de nuestra empresa con espíritu emprendedor, con actitud de servicio, ofreciendo servicios y productos   innovadores   con calidad y aun precio accesible, además de hacerle pasar al cliente en su estancia un ambiente seguro en compañía de la mejor música.
 
