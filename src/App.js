@@ -33,7 +33,7 @@ class App extends Component {
             Mantener el liderazgo
           </li>
           <li>
-            Ofrecer excelente servicio,
+            Ofrecer excelente servicio
           </li>
           <li>
             Ser rentable
@@ -47,6 +47,7 @@ class App extends Component {
 
 
         </p>
+        <button href="" style="background-color:blue;">Siguiente pàgina</button >
 
       </div>
     );
