@@ -50,12 +50,10 @@ class App extends Component {
 
         </p>
         <br />
-        <Router>
-          <Link to="/PaginaDeConctacto"><button>
+        <button>
             Siguiente pàgina
           </button>
-          </Link>
-        </Router>
+          
       </div>
     );
   }
