@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './style.css';
 import { BrowserRouter as Router, Redirect, Link, Route, Switch } from "react-router-dom";
 
 class App extends Component {
@@ -11,6 +12,13 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Visiòn</h1>
         </header>
+        <nav class="page__menu page__custom-settings menu">
+          <ul class="menu__list r-list">
+            <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined">Option #1</a></li>
+            <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined">Option #2</a></li>
+            <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined">Option #3</a></li>
+          </ul>
+        </nav>
         <p className="App-intro">
           Constituir un equipo dentro de nuestra empresa con espíritu emprendedor, con actitud de servicio, ofreciendo servicios y productos   innovadores   con calidad y aun precio accesible, además de hacerle pasar al cliente en su estancia un ambiente seguro en compañía de la mejor música.
 
