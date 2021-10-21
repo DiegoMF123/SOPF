@@ -26,3 +26,31 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+body{
+  background-size:cover;
+  background-repeat: no-repeat;
+  
+  background-attachment: fixed;
+  }
+  
+  p {
+    animation-duration: 4s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  
+  img#imagen11{
+    opacity: 100;
+  }
+  
