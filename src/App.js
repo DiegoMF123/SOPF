@@ -36,14 +36,10 @@ class App extends Component {
 
         </p>
         <br />
-        <Router>
-          <Switch>
-            <Route exact path="/PaginaDeContacto">
-
-              <Link to='/PaginaDeContacto' >Pagina Siguiente </Link>
-            </Route>
-          </Switch>
-        </Router>
+        <Link to="/PaginaDeContacto"><button>
+              Pagina siguiente
+            </button>
+            </Link>
         <a href="/PaginaDeContacto.js" class="btn btn-default">Siguiente Pagina</a>
 
       </div>
