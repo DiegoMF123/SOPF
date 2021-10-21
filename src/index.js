@@ -9,7 +9,7 @@ import Appdos from "./PaginaDeConctacto";
  ReactDOM.render(
    <BrowserRouter>
     <Switch>
-     <Route exact path="/app" component={App} />
+     <Route exact path="/" component={App} />
      <Route path="/PaginaDeConctacto" component={Appdos} />
    </Switch>
    </BrowserRouter>,
