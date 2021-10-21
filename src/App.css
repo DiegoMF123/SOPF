@@ -38,8 +38,13 @@ p {
     animation-duration: 4s;
     animation-name: slidein;
   }
-  
-header{
+
+img{
+    animation-duration: 4s;
+    animation-name: slidein;
+  }
+
+h1{
     animation-duration: 4s;
     animation-name: slidein;
   }
