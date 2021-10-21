@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class App extends Component {
   render() {
@@ -48,12 +48,13 @@ class App extends Component {
 
 
         </p>
-        <br/>
-        <Link to="/PaginaDeConctacto"><button>
-              Siguiente pàgina
-            </button>
-            </Link>
-
+        <br />
+        <Router>
+          <Link to="/PaginaDeConctacto"><button>
+            Siguiente pàgina
+          </button>
+          </Link>
+        </Router>
       </div>
     );
   }
