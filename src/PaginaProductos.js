@@ -25,7 +25,7 @@ class Apptres extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <br />
-        <Link to="/PaginaDeConctacto"><button>
+        <Link to="/PaginaDeConctacto"><button class="btn btn-info">
           Siguiente pàgina
         </button>
         </Link>
