@@ -10,9 +10,9 @@ class App extends Component {
       <div className="App">
         <nav class="page__menu page__custom-settings menu">
           <ul class="menu__list r-list">
-            <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined"><Link to="/">Pagina 1</Link></a></li>
-            <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined"><Link to="/PaginaDeConctacto">Pagina 2</Link></a></li>
-            <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined"><Link to="/PaginaProductos">Pagina 3</Link></a></li>
+            <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined"><Link to="/">Pagina 1</Link></a></li>        
+            <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined"><Link to="/PaginaProductos">Pagina 2</Link></a></li>
+            <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined"><Link to="/PaginaDeConctacto">Pagina 3</Link></a></li>
           </ul>
         </nav>
         <header className="App-header">
