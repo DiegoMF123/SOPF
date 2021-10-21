@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Redirect, Link, Route, Switch } from "react-router-dom";
 
-class App extends Component {
+class Apptres extends Component {
   render() {
     return (
       <div className="App">
@@ -15,9 +16,14 @@ class App extends Component {
 
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <br />
+        <Link to="/PaginaDeConctacto"><button>
+          Siguiente pàgina
+        </button>
+        </Link>
       </div>
     );
   }
 }
 
-export default App;
+export default Apptres;

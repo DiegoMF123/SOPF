@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import App from "./App";
 import Appdos from "./PaginaDeConctacto";
+import Apptres from "./PaginaProductos";
 
  const rootElement = document.getElementById("root");
  ReactDOM.render(
@@ -11,6 +12,7 @@ import Appdos from "./PaginaDeConctacto";
     <Switch>
      <Route exact path="/" component={App} />
      <Route path="/PaginaDeConctacto" component={Appdos} />
+     <Route path="/PaginaProductos" component={Apptres} />
    </Switch>
    </BrowserRouter>,
    rootElement
