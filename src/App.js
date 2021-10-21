@@ -8,10 +8,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Visiòn</h1>
-        </header>
         <nav class="page__menu page__custom-settings menu">
           <ul class="menu__list r-list">
             <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined">Option #1</a></li>
@@ -19,6 +15,11 @@ class App extends Component {
             <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined">Option #3</a></li>
           </ul>
         </nav>
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1 className="App-title">Visiòn</h1>
+        </header>
+        
         <p className="App-intro">
           Constituir un equipo dentro de nuestra empresa con espíritu emprendedor, con actitud de servicio, ofreciendo servicios y productos   innovadores   con calidad y aun precio accesible, además de hacerle pasar al cliente en su estancia un ambiente seguro en compañía de la mejor música.
 

@@ -7,6 +7,13 @@ class Apptres extends Component {
   render() {
     return (
       <div className="App">
+        <nav class="page__menu page__custom-settings menu">
+          <ul class="menu__list r-list">
+            <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined">Option #1</a></li>
+            <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined">Option #2</a></li>
+            <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined">Option #3</a></li>
+          </ul>
+        </nav>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Curso de Sistemas Operativos Seccion del curso</h1>
