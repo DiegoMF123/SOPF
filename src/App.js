@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Appdos from './PaginaDeConctacto';
-import { Link } from "react-router-dom";
 
 class App extends Component {
   render() {
@@ -49,11 +47,9 @@ class App extends Component {
 
 
         </p>
-        <br />
-        <button>
-            Siguiente pàgina
-          </button>
-          
+        <br/>
+        <button href="PaginaDeConctacto.js" >Siguiente pàgina</button >
+
       </div>
     );
   }
