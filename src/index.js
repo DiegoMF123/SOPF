@@ -1,10 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import Appdos from './PaginaDeConctacto';
+import React from "react";
+import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+import App from "./App";
+import Appdos from "./PaginaDeConctacto";
+
+ const rootElement = document.getElementById("root");
+ ReactDOM.render(
+   <BrowserRouter>
+    <Switch>
+     <Route exact path="/app" component={App} />
+     <Route path="/PaginaDeConctacto" component={Appdos} />
+   </Switch>
+   </BrowserRouter>,
+   rootElement
+ );
