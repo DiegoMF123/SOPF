@@ -17,7 +17,7 @@ class Apptres extends Component {
         </nav>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Curso de Sistemas Operativos Seccion del curso</h1>
+          <h1 className="App-title">Informaciòn de productos</h1>
         </header>
         <p className="App-intro">
           Seccion del curso
