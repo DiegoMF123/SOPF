@@ -39,6 +39,11 @@ p {
     animation-name: slidein;
   }
   
+header{
+    animation-duration: 4s;
+    animation-name: slidein;
+  }
+  
 @keyframes slidein {
     from {
       margin-left: 100%;
