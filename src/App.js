@@ -36,7 +36,7 @@ class App extends Component {
 
         </p>
         <br />
-        <a href="http://google.com" class="btn btn-default">Go to Google</a>
+        <a href="/PaginaDeContacto" class="btn btn-default">Siguiente Pagina</a>
 
       </div>
     );
