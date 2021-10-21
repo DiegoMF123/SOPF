@@ -36,7 +36,7 @@ class App extends Component {
 
         </p>
         <br />
-        <a href="/PaginaDeContacto" class="btn btn-default">Siguiente Pagina</a>
+        <a href="/PaginaDeContacto.js" class="btn btn-default">Siguiente Pagina</a>
 
       </div>
     );
