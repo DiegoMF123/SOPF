@@ -48,7 +48,10 @@ class App extends Component {
 
         </p>
         <br/>
-        <button href="PaginaDeConctacto.js" >Siguiente pàgina</button >
+        <Link to="/PaginaDeConctacto"><button>
+              Siguiente pàgina
+            </button>
+            </Link>
 
       </div>
     );
