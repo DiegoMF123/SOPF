@@ -16,7 +16,7 @@ class App extends Component {
           </ul>
         </nav>
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={VISION} className="App-logo" alt="VISION" />
           <h1 className="App-title">Visiòn</h1>
         </header>
 
@@ -26,7 +26,7 @@ class App extends Component {
         </p>
 
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={mision} className="App-logo" alt="mision" />
           <h1 className="App-title">Misiòn</h1>
         </header>
         <p className="App-intro">
