@@ -68,7 +68,7 @@ h1{
   .content-all{
     width: 210px;
     margin: auto;
-    perspective: 800px;
+    perspective: 10000px;
     position: relative;
     margin-top: 50px;
 }
