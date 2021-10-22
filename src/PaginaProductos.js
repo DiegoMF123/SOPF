@@ -5,7 +5,6 @@ import './style.css';
 import './style2.css';
 import './bootstrap.css';
 import './menu.css';
-import './fontawesome.css';
 import './animatemin.css';
 import './kenburns.css';
 
