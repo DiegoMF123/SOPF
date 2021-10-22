@@ -5,11 +5,11 @@ import img2 from './2.jpg';
 import img3 from './3.jpg';
 import img4 from './4.jpg';
 import img5 from './5.jpg';
-import img6 from './6.jpg';
+import img6 from './6.png';
 import img7 from './7.jpg';
-import img8 from './8.jpg';
-import img9 from './9.jpg';
-import img10 from './10.jpg';
+import img8 from './8.png';
+import img9 from './9.png';
+import img10 from './10.png';
 import './App.css';
 import './style.css';
 
