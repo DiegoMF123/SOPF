@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import vision from './vision.svg';
-import mision from './mision.svg';
+import vision from './vision.png';
+import mision from './mision.png';
 import './App.css';
 import './style.css';
 import { BrowserRouter as Router, Redirect, Link, Route, Switch } from "react-router-dom";
