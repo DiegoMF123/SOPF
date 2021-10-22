@@ -29,6 +29,19 @@ class Apptres extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <br />
+        <div class="content-carrousel">
+            <figure><img src={logo} alt="logo" /></figure>
+            <figure><img src={logo} alt="logo" /></figure>
+            <figure><img src={logo} alt="logo" /></figure>
+            <figure><img src={logo} alt="logo" /></figure>
+            <figure><img src={logo} alt="logo" /></figure>
+            <figure><img src={logo} alt="logo" /></figure>
+            <figure><img src={logo} alt="logo" /></figure>
+            <figure><img src={logo} alt="logo" /></figure>
+            <figure><img src={logo} alt="logo" /></figure>
+            <figure><img src={logo} alt="logo" /></figure>
+        </div>
+        <br />
         <Link to="/PaginaDeConctacto"><button class="btn btn-info">
           Siguiente pàgina
         </button>
