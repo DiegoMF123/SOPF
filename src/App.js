@@ -18,23 +18,28 @@ class App extends Component {
           </ul>
         </nav>
         <header className="App-header">
-          <img src={vision} className="App-logo" alt="VISION" />
+          <img src={vision} className="App-logodos" alt="VISION" />
           <h1 className="App-title">Visiòn</h1>
         </header>
-
+        <br />
+        <br />
         <p className="App-intro">
           Constituir un equipo dentro de nuestra empresa con espíritu emprendedor, con actitud de servicio, ofreciendo servicios y productos   innovadores   con calidad y aun precio accesible, además de hacerle pasar al cliente en su estancia un ambiente seguro en compañía de la mejor música.
 
         </p>
+        <br />
+        <br />
 
         <header className="App-header">
-          <img src={mision} className="App-logo" alt="mision" />
+          <img src={mision} className="App-logodos" alt="mision" />
           <h1 className="App-title">Misiòn</h1>
         </header>
         <p className="App-intro">
           Ser reconocidos como una empresa innovadora, moderna y que satisface a una necesidad de nuestros clientes por el servicio que brindamos, además de la calidad en nuestros
 
         </p>
+        <br />
+        <br />
         <div className="Appdos">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
