@@ -2,11 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import './style.css';
-import './style2.css';
-import './bootstrap.css';
-import './menu.css';
-import './animatemin.css';
-import './kenburns.css';
+
 
 
 
