@@ -34,11 +34,91 @@ class Apptres extends Component {
           <h1 className="App-title">Informaciòn de productos</h1>
         </header>
         <p className="App-intro">
-          Seccion del curso
-
-          To get started, edit <code>src/App.js</code> and save to reload.
+          En esta secciòn podremos encontrar los productos relacionados.
         </p>
+
+        <section class="NovidadesSection">
+          <main class="mainDestacados">
+            <h2>Catalogo de Productos</h2>
+            <section class="containerProdutos">
+              <div class="produto">
+                <img src={img} alt="logo" />
+                <div class="productDescription">
+                  <h3 class="produto__title">Producto 1</h3>
+                  <spam class="produto__price">Q90.00</spam>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+              </div>
+              <div class="produto">
+                <img src={img2} alt="logo" />
+                <div class="productDescription">
+                  <h3 class="produto__title">Producto 2</h3>
+                  <spam class="produto__price">Q90.00</spam>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+              </div>
+              <div class="produto">
+                <img src={img3} alt="logo" />
+                <div class="productDescription">
+                  <h3 class="produto__title">Producto 3</h3>
+                  <spam class="produto__price">Q90.00</spam>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+              </div>
+              <div class="produto">
+                <img src={img4} alt="logo" />
+                <div class="productDescription">
+                  <h3 class="produto__title">Producto 4</h3>
+                  <spam class="produto__price">Q90.00</spam>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+              </div>
+              <div class="produto">
+                <img src={img5} alt="logo" />
+                <div class="productDescription">
+                  <h3 class="produto__title">Producto 5</h3>
+                  <spam class="produto__price">Q90.00</spam>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+              </div>
+              <div class="produto">
+                <img src={img6} alt="logo" />
+                <div class="productDescription">
+                  <h3 class="produto__title">Producto 6</h3>
+                  <spam class="produto__price">Q90.00</spam>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+              </div>
+              <div class="produto">
+                <img src={img7} alt="logo" />
+                <div class="productDescription">
+                  <h3 class="produto__title">Producto 7</h3>
+                  <spam class="produto__price">Q90.00</spam>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+              </div>
+              <div class="produto">
+                <img src={img8} alt="logo" />
+                <div class="productDescription">
+                  <h3 class="produto__title">Producto 8</h3>
+                  <spam class="produto__price">Q90.00</spam>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+              </div>
+            </section>
+          </main>
+        </section>
+
         <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
         <div className="Appdos">
           <div class="content-carrousel">
             <figure><img src={img} alt="logo" /></figure>
@@ -62,7 +142,7 @@ class Apptres extends Component {
         <br />
         <br />
         <br />
-        
+
         <Link to="/PaginaDeConctacto"><button class="btn btn-info">
           Siguiente pàgina
         </button>

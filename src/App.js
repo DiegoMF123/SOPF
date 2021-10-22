@@ -29,6 +29,7 @@ class App extends Component {
         </p>
         <br />
         <br />
+        <br />
 
         <header className="App-header">
           <img src={mision} className="App-logodos" alt="mision" />
