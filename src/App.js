@@ -33,7 +33,7 @@ class App extends Component {
           Ser reconocidos como una empresa innovadora, moderna y que satisface a una necesidad de nuestros clientes por el servicio que brindamos, además de la calidad en nuestros
 
         </p>
-
+        <div className="Appdos">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Objetivos</h1>
@@ -42,15 +42,19 @@ class App extends Component {
           <li>
             Mantener el liderazgo
           </li>
+          <br />
           <li>
             Ofrecer excelente servicio
           </li>
+          <br />
           <li>
             Ser rentable
           </li>
+          <br />
           <li>
             Contribuir con el desarrollo del país.
           </li>
+          <br />
           <li>
             Ampliar la red de distribución en un 35% durante el último mes del año.
           </li>
@@ -62,7 +66,7 @@ class App extends Component {
           Siguiente pàgina
         </button>
         </Link>
-
+        </div>
 
       </div>
       
