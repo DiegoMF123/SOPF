@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import vision from './vision.svg';
+import mision from './mision.svg';
 import './App.css';
 import './style.css';
 import { BrowserRouter as Router, Redirect, Link, Route, Switch } from "react-router-dom";
@@ -16,7 +18,7 @@ class App extends Component {
           </ul>
         </nav>
         <header className="App-header">
-          <img src={VISION} className="App-logo" alt="VISION" />
+          <img src={vision} className="App-logo" alt="VISION" />
           <h1 className="App-title">Visiòn</h1>
         </header>
 
