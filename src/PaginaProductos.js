@@ -2,6 +2,29 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import './style.css';
+import './style2.css';
+import './bootstrap.css';
+import './menu.css';
+import './jquery-2.2.3.min.js';
+import './font-awesome.css';
+import './owl.carousel.css';
+import './animate.min.css';
+import './ken-burns.css';
+import './owl.carousel.js';
+import './jquery-scrolltofixed-min.js';
+import './move-top.js';
+import './bootstrap.js';
+import './easing.js';
+import './minicart.js';
+import './jquery.knob.js';
+import './time.js';
+import './jquery.throttle.js';
+import './main.js';
+import './jquery.menu-aim.js';
+import './jquery.classycountdown.js';
+
+
+
 import { BrowserRouter as Router, Redirect, Link, Route, Switch } from "react-router-dom";
 
 class Apptres extends Component {

@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.Appdos {
+  text-align: center;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
@@ -35,7 +39,7 @@ body{
   }
 
 p {
-    animation-duration: 4s;
+    animation-duration: 6s;
     animation-name: slidein;
   }
 
