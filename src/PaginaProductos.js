@@ -5,10 +5,10 @@ import './style.css';
 import './style2.css';
 import './bootstrap.css';
 import './menu.css';
-import './font-awesome.css';
-import './owl.carousel.css';
-import './animate.min.css';
-import './ken-burns.css';
+import './fontawesome.css';
+import './owlcarousel.css';
+import './animatemin.css';
+import './kenburns.css';
 
 
 
