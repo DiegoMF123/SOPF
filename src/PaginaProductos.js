@@ -6,7 +6,6 @@ import './style2.css';
 import './bootstrap.css';
 import './menu.css';
 import './fontawesome.css';
-import './owlcarousel.css';
 import './animatemin.css';
 import './kenburns.css';
 
