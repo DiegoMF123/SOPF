@@ -10,6 +10,7 @@ import img7 from './7.png';
 import img8 from './8.png';
 import img9 from './9.png';
 import img10 from './10.png';
+import catalogo from './catalogo.png';
 import './App.css';
 import './style.css';
 
@@ -30,7 +31,7 @@ class Apptres extends Component {
           </ul>
         </nav>
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={catalogo} className="App-logodos" alt="catalogo" />
           <h1 className="App-title">Informaciòn de productos</h1>
         </header>
         <p className="App-intro">

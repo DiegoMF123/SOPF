@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import vision from './vision.png';
 import mision from './mision.png';
+import Objetivos from './Objetivos.png';
 import './App.css';
 import './style.css';
 import { BrowserRouter as Router, Redirect, Link, Route, Switch } from "react-router-dom";
@@ -43,7 +44,7 @@ class App extends Component {
         <br />
         <div className="Appdos">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={Objetivos} className="App-logodos" alt="Objetivos" />
           <h1 className="App-title">Objetivos</h1>
         </header>
         <p className="App-intro">

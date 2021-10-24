@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import './style.css';
+import sedes from './sedes.png';
+import contacto from './contacto.png';
+import videoinformtaivo from './videoinformtaivo.png';
 import { BrowserRouter as Router, Redirect, Link, Route, Switch } from "react-router-dom";
 
 class Appdos extends Component {
@@ -16,7 +19,7 @@ class Appdos extends Component {
           </ul>
         </nav>
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={sedes} className="App-logodos" alt="sedes" />
           <h1 className="App-title">Sedes</h1>
         </header>
         <p className="App-intro">
@@ -37,7 +40,7 @@ class Appdos extends Component {
         <br />
         <br />
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={contacto} className="App-logodos" alt="contacto" />
           <h1 className="App-title">Datos de contacto</h1>
         </header>
         <p className="App-intro">
@@ -53,7 +56,7 @@ class Appdos extends Component {
         </form>
 
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={videoinformtaivo} className="App-logodos" alt="videoinformtaivo" />
           <h1 className="App-title">Video informativo</h1>
         </header>
         <p className="App-intro">
